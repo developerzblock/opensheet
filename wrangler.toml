@@ -1,5 +1,5 @@
 name = "opensheet"
-account_id = "67dea42500ed1c73676cafa8aa4f572c"
+account_id = "6092268c0d4cc37fd8ba5240a2a84482"
 type = "webpack"
 compatibility_date = "2022-01-14"
 
@@ -7,5 +7,5 @@ compatibility_date = "2022-01-14"
 # workers_dev = true
 
 # For custom domain — comment out if you don’t have a custom domain.
-zone_id = "bb3900bc46e7f1f8ff6820941737ff05"
-route = "opensheet.elk.sh/*"
+#zone_id = "bb3900bc46e7f1f8ff6820941737ff05"
+#route = "opensheet.elk.sh/*"
