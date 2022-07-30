@@ -9,7 +9,8 @@ async function handleRequest(event) {
     return new Response("", {
       status: 302,
       headers: {
-        location: "https://github.com/benborgers/opensheet#readme",
+        //location: "https://github.com/benborgers/opensheet#readme",
+        location: "https://thepetbodega.com/",
       },
     });
   }
@@ -23,7 +24,7 @@ async function handleRequest(event) {
     return error("URL format is /spreadsheet_id/sheet_name", 404);
   }
 
-  const cacheKey = `https://opensheet.elk.sh/${id}/${sheet}`;
+  const cacheKey = `https://opensheet.devblock.workers.dev/${id}/${sheet}`;
   const cache = caches.default;
   const cachedResponse = await cache.match(cacheKey);
   if (cachedResponse) {
